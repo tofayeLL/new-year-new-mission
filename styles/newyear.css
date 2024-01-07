@@ -25,16 +25,18 @@ button {
     max-width: 1320px;
     margin: 0 auto;
 }
-h3 {
-    color: #FFF;
-    font-size: 52px;
+
+
+h3{
+    color: #070211;
+    font-size: 38px;
     font-weight: 900;
 }
 
 p{
-    color: #FFF;
-    font-size: 14px;
+    color: rgba(7, 2, 17, 0.60);;
 }
+
 
 
 
@@ -133,6 +135,16 @@ main section {
 #midnight-party .midnight-content *{
     margin-bottom: 25px;
 }
+.midnight-content h3 {
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.midnight-content p{
+    color: #FFF;
+    font-size: 14px;
+}
 
 .midnight-content .section-text {
     max-width: 550px;
@@ -158,3 +170,31 @@ button {
   
     width: 100%;
 }
+
+/* portfolio related styles */
+
+.portfolio-container .portfolio-text .gift{
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+}
+.portfolio-container .portfolio-text{
+    max-width: 730px;
+    
+}
+.portfolio-container .portfolio-img{
+  
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.portfolio-container .portfolio-text *{
+    margin-bottom: 20px;
+}
+
+.portfolio-container .portfolio-img img{
+    width: 100%;
+} 
+
+
