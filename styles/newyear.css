@@ -15,7 +15,8 @@ h1 {
     font-family: 'Merriweather', serif;
 }
 
-* p {
+* p,
+button {
     font-family: 'Inter', sans-serif;
 }
 
@@ -24,17 +25,21 @@ h1 {
     max-width: 1320px;
     margin: 0 auto;
 }
-
-h1 {
-    color: #FFF;
-    font-size: 60px;
-    font-weight: 700;
-}
-
 h3 {
     color: #FFF;
-    font-size: 28px;
+    font-size: 52px;
+    font-weight: 900;
 }
+
+p{
+    color: #FFF;
+    font-size: 14px;
+}
+
+
+
+
+
 
 
 
@@ -42,8 +47,8 @@ h3 {
 
 .banner {
     text-align: center;
-    background-image: url('../images/Banner\ Image.png');
-    background-position: cover;
+    background-image: url('../images/Banner\ Image.png'); 
+    background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -59,10 +64,25 @@ h3 {
     margin-bottom: 10px;
 }
 
+.banner .header-text h3 {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.banner .header-text h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+
 /* main related styles */
 main section {
     margin-top: 120px;
 }
+
+
 
 /* discount related section */
 #discount .discount-content {
@@ -91,8 +111,50 @@ main section {
     margin-top: 30px;
     margin-bottom: 15px;
 }
-.discount-content .categories{
+
+.discount-content .categories {
     color: #070211;
     font-size: 38px;
     font-weight: 700;
+}
+
+
+/* midnight party related section */
+#midnight-party .midnight-content {
+    background-image: url('../images/Vectorrr.png');
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#midnight-party .midnight-content *{
+    margin-bottom: 25px;
+}
+
+.midnight-content .section-text {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 126px 0;
+}
+
+button {
+    color: #FFF;
+    background-color: rgb(214, 13, 164);
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 24px;
+    text-transform: uppercase;
+}
+.midnight-content .section-img{
+    max-width: 260px;
+    padding: 60px 60px ;
+}
+.midnight-content .section-img img{
+  
+    width: 100%;
 }
