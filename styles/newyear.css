@@ -169,7 +169,7 @@ main section {
 
 .midnight-content .section-img {
     max-width: 260px;
-    padding: 60px 60px;
+    padding: 60px 100px 60px 0px;
 }
 
 .midnight-content .section-img img {
@@ -233,6 +233,7 @@ main section {
     justify-content: center;
     align-items: center;
 
+
 }
 
 #newsletter .newsletter-form input {
@@ -252,4 +253,64 @@ main section {
     padding: 18px 50px;
     font-size: 18px;
     border: none;
+}
+
+
+/* footer related styles */
+footer {
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+footer .footer-content {
+    padding: 80px 0px;
+}
+
+
+.footer-content .footer-title {
+    margin-bottom: 50px;
+}
+
+.footer-content .footer-title .contact img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+.footer-title,
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-content .footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer-content .footer-social-link img {
+    margin-right: 20px;
+}
+
+footer hr {
+    border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-content .footer-foot {
+    margin-top: 50px;
+}
+
+footer hr:hover {
+
+    border: 2px solid blue;
+    transition: all 1s;
 }
