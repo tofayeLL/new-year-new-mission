@@ -16,7 +16,8 @@ h1 {
 }
 
 * p,
-button {
+button,
+input {
     font-family: 'Inter', sans-serif;
 }
 
@@ -27,14 +28,15 @@ button {
 }
 
 
-h3{
+h3 {
     color: #070211;
     font-size: 38px;
     font-weight: 900;
 }
 
-p{
-    color: rgba(7, 2, 17, 0.60);;
+p {
+    color: rgba(7, 2, 17, 0.60);
+    ;
 }
 
 
@@ -49,7 +51,7 @@ p{
 
 .banner {
     text-align: center;
-    background-image: url('../images/Banner\ Image.png'); 
+    background-image: url('../images/Banner\ Image.png');
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -132,16 +134,18 @@ main section {
     justify-content: center;
     align-items: center;
 }
-#midnight-party .midnight-content *{
+
+#midnight-party .midnight-content * {
     margin-bottom: 25px;
 }
+
 .midnight-content h3 {
     color: #FFF;
     font-size: 52px;
     font-weight: 900;
 }
 
-.midnight-content p{
+.midnight-content p {
     color: #FFF;
     font-size: 14px;
 }
@@ -152,7 +156,7 @@ main section {
     padding: 126px 0;
 }
 
-button {
+.midnight-content .section-text button {
     color: #FFF;
     background-color: rgb(214, 13, 164);
     border-radius: 8px;
@@ -162,39 +166,90 @@ button {
     padding: 15px 24px;
     text-transform: uppercase;
 }
-.midnight-content .section-img{
+
+.midnight-content .section-img {
     max-width: 260px;
-    padding: 60px 60px ;
+    padding: 60px 60px;
 }
-.midnight-content .section-img img{
-  
+
+.midnight-content .section-img img {
+
     width: 100%;
 }
 
 /* portfolio related styles */
 
-.portfolio-container .portfolio-text .gift{
+.portfolio-container .portfolio-text .gift {
     color: #F00;
     font-size: 18px;
     font-weight: 500;
 }
-.portfolio-container .portfolio-text{
+
+.portfolio-container .portfolio-text {
     max-width: 730px;
-    
-}
-.portfolio-container .portfolio-img{
-  
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3,1fr);
 
 }
-.portfolio-container .portfolio-text *{
+
+.portfolio-container .portfolio-img {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.portfolio-container .portfolio-text * {
     margin-bottom: 20px;
 }
 
-.portfolio-container .portfolio-img img{
+.portfolio-container .portfolio-img img {
     width: 100%;
-} 
+}
 
 
+/* newsletter related design */
+
+#newsletter .newsletter-container {
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+#newsletter .newsletter-content {
+    text-align: center;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+#newsletter .newsletter-content * {
+    margin-bottom: 30px;
+}
+
+#newsletter .newsletter-form {
+    text-align: center;
+    max-width: 525px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#newsletter .newsletter-form input {
+    padding: 21px;
+    border-radius: 50px;
+    background: #FFF;
+    flex-grow: 1;
+    border: none;
+
+}
+
+#newsletter .newsletter-form button {
+    color: #FFF;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -50px;
+    padding: 18px 50px;
+    font-size: 18px;
+    border: none;
+}
