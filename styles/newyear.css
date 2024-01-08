@@ -40,28 +40,23 @@ p {
 }
 
 
-
-
-
-
-
-
-
 /* banner related styles */
 
 .banner {
     text-align: center;
-    background-image: url('../images/Banner\ Image.png');
+    background-image: radial-gradient(rgba(22, 18, 18, 0.7),
+            rgba(29, 26, 26, 0.7)), url('../images/Banner\ Image.png');
     background-size: cover;
-    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
     background-repeat: no-repeat;
+
 }
 
 .banner .header-text {
     max-width: 500px;
     margin: 0 auto;
-    padding: 165px 0;
-
+    padding: 200px 0;
 }
 
 .banner .header-text * {
@@ -127,9 +122,8 @@ main section {
 #midnight-party .midnight-content {
     background-image: url('../images/Vectorrr.png');
     background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100%;
+    background-position: center;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +177,7 @@ main section {
 
 #coming-soon .coming-soon-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
 
@@ -236,19 +230,6 @@ main section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* portfolio related styles */
 
 .portfolio-container .portfolio-text .gift {
@@ -268,6 +249,7 @@ main section {
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
 
+
 }
 
 .portfolio-container .portfolio-text * {
@@ -276,6 +258,15 @@ main section {
 
 .portfolio-container .portfolio-img img {
     width: 100%;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.portfolio-container .portfolio-img img:hover {
+    border: 6px solid red;
+    border-radius: 24px;
+
+
 }
 
 
@@ -374,15 +365,15 @@ footer .footer-content {
 }
 
 footer hr {
-    border: 2px solid rgba(255, 255, 255, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.15);
     cursor: pointer;
 }
 
 footer hr:hover {
 
-    border: 2px solid blue;
+    border: 3px solid blue;
 
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .footer-content .footer-foot {
