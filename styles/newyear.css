@@ -177,6 +177,78 @@ main section {
     width: 100%;
 }
 
+
+
+/* Coming soon section */
+
+#coming-soon .coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.coming-soon-container .content-one {
+    max-width: 320px;
+
+}
+
+.coming-soon-container .content-one .content-one-p {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.coming-soon-container .content-one * {
+    margin-bottom: 18px;
+}
+
+.coming-soon-container .content-img {
+    border: 10px solid #F00;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.coming-soon-container .content-three {
+    max-width: 225px;
+
+}
+
+.coming-soon-container .content-three .content-three-title {
+    color: #F00;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 55px;
+    margin-bottom: 14px;
+}
+
+.coming-soon-container .content-three .content-three-img {
+    max-width: 115px;
+    margin-top: 40px;
+
+}
+
+.coming-soon-container .content-three .content-three-img img {
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* portfolio related styles */
 
 .portfolio-container .portfolio-text .gift {
@@ -303,14 +375,16 @@ footer .footer-content {
 
 footer hr {
     border: 2px solid rgba(255, 255, 255, 0.15);
-}
-
-.footer-content .footer-foot {
-    margin-top: 50px;
+    cursor: pointer;
 }
 
 footer hr:hover {
 
     border: 2px solid blue;
+
     transition: all 1s;
+}
+
+.footer-content .footer-foot {
+    margin-top: 50px;
 }
