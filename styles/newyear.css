@@ -36,7 +36,7 @@ h3 {
 
 p {
     color: rgba(7, 2, 17, 0.60);
-    ;
+   
 }
 
 
@@ -44,8 +44,11 @@ p {
 
 .banner {
     text-align: center;
-    background-image: radial-gradient(rgba(22, 18, 18, 0.7),
-            rgba(29, 26, 26, 0.7)), url('../images/Banner\ Image.png');
+
+    /* using linear gradient and background blend mode on back-ground image */
+    background-image:  url('../images/Banner\ Image.png'), linear-gradient(rgb(10, 2, 2),rgb(112, 110, 110) );
+    background-blend-mode: overlay;
+
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -65,7 +68,7 @@ p {
 }
 
 .banner .header-text h3 {
-    color: #FFF;
+    color: white;
     font-size: 28px;
 }
 
@@ -121,7 +124,14 @@ main section {
 
 /* midnight party related section */
 #midnight-party .midnight-content {
-    background-image: url('../images/Vectorrr.png');
+
+    /* using linear gradient and background blend mode on back-ground image */
+    background-image: url('../images/Vectorrr.png'),  linear-gradient(45deg, black, grey) ;
+    background-blend-mode: overlay;
+
+/*we can use like that also---- linear-gradient(rgb(27, 23, 23), rgb(117, 117, 115)) */
+
+
     background-size: cover;
     background-position: center;
     border-radius: 20px;
